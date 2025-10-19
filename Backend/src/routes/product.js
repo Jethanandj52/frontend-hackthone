@@ -1,7 +1,7 @@
 // routes/productRoutes.js
 const express = require('express');
 const productRoutes = express.Router();
-const { Product } = require('../modles/product'); // path change as needed
+const { Product } = require('../models/product'); // path change as needed
 
 // =================== POST - Create a product ===================
 productRoutes.post('/addProduct', async (req, res) => {
